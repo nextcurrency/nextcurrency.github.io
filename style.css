@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.table {
+    border-radius: 15px;
+}
+
+.custom-table td {
+    vertical-align: middle;
+}
+
+.currency {
+    text-align: left;
+}
+
+.divisas {
+    text-align: center;
+}
+
+.notas {
+    text-align: right;
+}
+
+img {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 2;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body.bg-dark {
+    background-color: #343a40 !important;
+}
+
+body.bg-dark .card {
+    background-color: #495057;
+}
+
+body.bg-dark .table {
+    background-color: #495057;
+}
+
+body.bg-dark .table thead {
+    background-color: #6c757d;
+}
+
+body.bg-dark .nav-tabs .nav-link {
+    color: #f8f9fa;
+}
+
+body.bg-dark .nav-tabs .nav-link.active {
+    background-color: #6c757d;
+}
+
+body.bg-dark .form-label,
+body.bg-dark .btn-primary {
+    color: #f8f9fa;
+}
+
+body.bg-dark .btn-secondary {
+    color: #f8f9fa;
+}
+
+body.bg-dark p {
+    color: #f8f9fa;
+}
+
+.form-check-input {
+    width: 60px;
+    height: 30px;
+    background-color: #6c757d;
+    border-radius: 15px;
+    position: relative;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+}
+
+.form-check-input::before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+
+.form-check-input:checked::before {
+    transform: translateX(30px);
+}
+
+.form-check-label {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #f8f9fa;
+}
+
+body.bg-light .form-check-label {
+    color: #212529;
+}
